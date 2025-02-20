@@ -71,6 +71,11 @@
             flex: var(--magnifier);
         }
 
+        #videos {
+            display: flex;
+            justify-content: space-around;
+        }
+
         .media-content video {
             display: block;
             margin: 0 auto;
@@ -141,13 +146,19 @@
             </div>
         </section>
 
-        <section class="media-section">
-            <h2>Videos</h2>
+        <section class="media-section" id="videos">
             <div class="media-content">
                 <video controls>
                     <source src="video/FreePalestine3:4.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+            </div>
+            <div class="media-content">
+                <!-- <video controls>
+                    <source src="https://youtu.be/tEqTw-ZXPkA">
+                    Your browser does not support the video tag.
+                </video> -->
+                <iframe width="1264" height="550" src="https://www.youtube.com/embed/tEqTw-ZXPkA" title="The Israel-Palestine Conflict explained (explainity® explainer video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
 
